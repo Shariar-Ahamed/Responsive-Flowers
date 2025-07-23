@@ -15,4 +15,150 @@
 }
 
 
+/* Share Style  */
 
+body{
+    font-family: "Noto Serif", serif;
+}
+
+
+
+
+
+/* header section style  */
+.header-section{
+    max-width:1140px;
+    margin: 0px auto;
+
+}
+
+.nav-section{
+    max-width:1140px 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+   width: 100%;
+
+}
+
+.nav-ul-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list-items {
+    font-family:"Inter", sans-serif;
+    font-size:1rem ;
+    list-style: none;
+    padding-left: 48px;
+}
+
+.nav-list-items, a{
+    text-decoration: none;
+}
+
+.nav-card-img{
+    padding-left: 58px;
+}
+
+.nav-home{
+    font-weight: 700;
+    color: #252432 ;
+}
+
+.nav-item{
+    font-weight: 400;
+    color: #8987A1;
+}
+
+.nav-card-img{
+    font-family: "Inter", sans-serif;
+    color: #000000 ;
+}
+
+
+/* Main Header style  */
+.head-main{
+    max-width: 1140px;
+    margin: 210px auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left-col{
+    margin-top:162px ;
+}
+
+.header-title{
+    font-size: 2rem ;
+    font-weight: 700;
+}
+
+.header-subtitle{
+    color:#E95A08 ;
+}
+
+.header-descrption{
+    font-family: "Inter", sans-serif;
+    color:rgba(0, 0, 0, 0.5) ;
+
+}
+
+.header-img{
+   width: 570px;
+   height: 355px;
+
+}
+
+
+
+
+
+
+/* Small Devices */
+@media screen and (max-width: 576px) {
+    /* header nav section  */
+    .nav-section{
+        width: 385px;
+        
+    }
+    .nav-logo{
+        width: 63px;
+        height: 38px;
+    }
+    .nav-card-img{
+        margin-top: 100px;
+    }
+
+    .nav-list-items{
+        display: none;
+    }
+
+
+    /* Main Header style  */
+    .head-main{
+        flex-direction: column-reverse;
+
+    }
+    .header-title{
+        font-size: 1.5rem;
+        margin-top: -128px;
+    }
+
+    .header-descrption{
+        font-size: 0.95rem;
+        width: 360px;
+        height: 68px;
+    }
+
+    .header-img{
+        width: 390px;
+        height: 245px;
+        margin-top: -128px;
+    }
+
+}
