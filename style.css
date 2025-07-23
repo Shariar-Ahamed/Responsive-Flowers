@@ -54,7 +54,8 @@ body{
     font-family:"Inter", sans-serif;
     font-size:1rem ;
     list-style: none;
-    padding-left: 48px;
+    padding-left: 58px;
+
 }
 
 .nav-list-items, a{
@@ -62,6 +63,7 @@ body{
 }
 
 .nav-card-img{
+    width: 150px;
     padding-left: 58px;
 }
 
@@ -72,8 +74,9 @@ body{
 
 .nav-item{
     font-weight: 400;
-    color: #8987A1;
+    color: #8987A1;  
 }
+
 
 .nav-card-img{
     font-family: "Inter", sans-serif;
@@ -132,6 +135,7 @@ body{
     }
     .nav-card-img{
         margin-top: 100px;
+        margin-left: 25px;
     }
 
     .nav-list-items{
