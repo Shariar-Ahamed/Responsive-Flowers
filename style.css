@@ -256,7 +256,37 @@ body{
 }
 
 
+/* offer section style */
+.offer-section{
+    max-width: 1140px;
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
 
+.offer-left-cola{
+    max-width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.offer-left-colb{
+    max-width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.offer-left-col-title{
+    
+}
 
 
 
@@ -401,5 +431,9 @@ body{
         font-size: 0.95rem;
         margin-top: 5px;
     }
+
+
+    /* offer section style */
+
 
 }
