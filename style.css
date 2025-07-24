@@ -229,7 +229,31 @@ body{
 }
 
 
+/* Latest Deals Style  */
+.latest-deals{
+    max-width: 1440px;
+    margin: 233px auto;
+    text-align: center;
+}
 
+.latest-deals-description{
+    max-width: 888px;
+    margin: 10px auto;
+}
+
+.deals-subtitle{
+    color: #E95A08 ;
+}
+
+.latest-deals-title{
+    font-size: 2.125rem;
+}
+.latest-deals-description{
+    font-family:"Inter", sans-serif;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px
+}
 
 
 
@@ -350,10 +374,32 @@ body{
 
     .flower-lover-right-col-title{
         font-size: 1.2rem;
-    }nav-card-img
+    }
+
+    .plants-desctiption{
+        font-size: 0.95rem
+    }
 
     .flower-lover-li{
-        font-size: 0.95rem ;
+       font-size: 0.95rem ;
        margin-top: 10px;
     }
+
+
+
+    /* Latest Deals Style  */
+    .latest-deals{
+        margin: 243px auto;
+    }
+    
+    .latest-deals-title{
+        font-size: 1.5rem;
+    }
+
+    .latest-deals-description{
+        max-width: 336px;
+        font-size: 0.95rem;
+        margin-top: 5px;
+    }
+
 }
