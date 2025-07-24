@@ -38,7 +38,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-logo{
    width: 100%;
 
@@ -99,6 +98,7 @@ body{
 .header-title{
     font-size: 2rem ;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .header-subtitle{
@@ -118,9 +118,74 @@ body{
 }
 
 
+/* Our Plants style  */
+
+.plants-section{
+    max-width: 1140px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.plants-title{
+    font-size:3.125rem ;
+    font-weight:700 ;
+}
+
+.plants-section-header{
+    text-align: center;
+}
+
+.plants-subtitle{
+    color: #E95A08 ;
+}
+
+.plants-desctiption{
+    font-family: "Inter", sans-serif;
+    max-width: 888px;
+    margin: 16px auto ;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-img{
+    width: 100%;
+}
+
+.plants-cards-items{
+    max-width: 1140px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px 10px;
+}
+
+.card-name{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    color: #111111
+}
+
+.card-price{
+    font-family:"Inter", sans-serif ;
+    font-weight: 700;
+}
+
+.btn-add-card{
+    font-family:"Inter", sans-serif ;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #E95A08;
+    border: none;
+    width: 100%;
+    padding: 19px 80px;
+    border-radius: 5px;   
+}
 
 
 
+ 
 
 /* Small Devices */
 @media screen and (max-width: 576px) {
@@ -165,5 +230,36 @@ body{
         height: 245px;
         margin-top: -128px;
     }
+
+
+    /* Our Plants style  */
+    .plants-section{
+        max-width: 393px;
+        margin: -160px auto;
+
+    }
+    .plants-title{
+        font-size: 1.2rem;
+    }
+
+    .plants-desctiption{
+        font-size: 0.95rem ;
+    }
+
+    .plants-cards-items{
+        max-width: 393px;
+        margin: 10px auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    .card-name{
+        font-size: 1rem;
+    }
+
+    .btn-add-card{
+        padding: 19px 30px;
+    }
+
 
 }
