@@ -184,6 +184,64 @@ body{
 }
 
 
+/* Flower & Plants Lover Style */
+
+.flower-lover-section{
+    max-width: 1140px;
+    margin: -150px auto;
+}
+
+.trusted-bdg{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    top: 170px;
+    right: -350px;
+}
+     
+.flower-lover-left-col-img{
+    width: 100%;
+}
+
+.flower-lover-right-col{
+    max-width: 540px;
+}
+
+
+.flower-lover-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.flower-lover-right-col-title{
+    font-family:"Noto Serif", serif;
+    font-size: 3.125rem;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.flower-lover-li{
+    font-family:"Inter", sans-serif;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
@@ -262,4 +320,34 @@ body{
     }
 
 
+    /*Flower & Plants Lover Start */
+
+    .flower-lover-section{
+       max-width:361px ;
+    }
+    .trusted-bdg{
+        display: none;
+    }
+
+    .flower-lover-main{
+        flex-direction: column;
+    }
+
+    .flower-lover-left-col-img{
+        margin: 200px auto;
+    }
+
+    .flower-lover-right-col{
+        margin-top: -200px;
+        margin-left: -15px;
+    }
+
+    .flower-lover-right-col-title{
+        font-size: 1.2rem;
+    }
+
+    .flower-lover-li{
+        font-size: 0.95rem ;
+       margin-top: 10px;
+    }
 }
