@@ -232,7 +232,7 @@ body{
 /* Latest Deals Style  */
 .latest-deals{
     max-width: 1440px;
-    margin: 233px auto;
+    margin: 350px auto;
     text-align: center;
 }
 
@@ -259,38 +259,152 @@ body{
 /* offer section style */
 .offer-section{
     max-width: 1140px;
-    margin: 150px auto;
+    margin: -150px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
+    font-family:"Noto Serif", serif ;
+    color: #FFFFFF; 
 }
 
-.offer-left-cola{
+.offer-left-col-parent{
+    max-width: 367px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+/* #Overlay Dark effect# */
+.offer-left-cola {
+    position: relative;
     max-width: 367px;
     height: 201px;
     border-radius: 14px;
     background-image: url(assets/deal-bloom.png);
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.offer-left-cola::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+    opacity: 0.7;
+    border-radius: 14px;
+}
+
+
+.offer-left-cola h2,
+.offer-left-cola a {
+    position: relative;
+     z-index: 2;
+    color: white;
+}
+
 
 .offer-left-colb{
-    max-width: 367px;
-    height: 201px;
-    border-radius: 14px;
-    background-image: url(assets/deal-ana.png);
-    background-repeat: no-repeat;
-    background-position: center center;
+     position: relative;
+     max-width: 367px;
+     height: 201px;
+     border-radius: 14px;
+     background-image: url(assets/deal-ana.png);
+     background-size: cover;
+      background-position: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
 }
+
+.offer-left-colb::before {
+     content: "";
+     position: absolute;
+     inset: 0;
+     background-color: rgba(0, 0, 0, 0.4); 
+     z-index: 1;
+     opacity: 0.7;
+     border-radius: 14px;
+}
+
+.offer-left-colb h2,
+.offer-left-colb a {
+     position: relative;
+     z-index: 2;
+     color: white;
+}
+
 
 .offer-left-col-title{
-    
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.offer-left-col-shopNow{
+    font-family:"Inter", sans-serif ;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 
+.offer-right-col-parent{
+     position: relative;
+     width: 753px;
+     height: 423px;
+     border-radius: 14px;
+     background-image: url(assets/deal-zabo.png);
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
 
+.offer-right-col-parent::before{
+     content: "";
+     position: absolute;
+     inset: 0;
+     background-color: rgba(0, 0, 0, 0.4); 
+     z-index: 1;
+     opacity: 0.7;
+     border-radius: 14px;
+}
 
+.offer-right-col-contaion h2,
+.offer-right-col-contaion a {
+     position: relative;
+     z-index: 2;
+     color: white;
+}
+
+.offer-right-col-contaion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-right-col-title{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.offer-right-col-shopNow{
+    font-family:"Inter", sans-serif ;
+    font-size:1.75rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
 
 
 
@@ -411,6 +525,7 @@ body{
     }
 
     .flower-lover-li{
+        width: 370px;
        font-size: 0.95rem ;
        margin-top: 10px;
     }
@@ -434,6 +549,35 @@ body{
 
 
     /* offer section style */
+    .offer-section{
+        max-width: 361px;
+        margin: -200px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;   
+    }
+    
+    .offer-left-col-title{
+        font-size: 0.95rem;
+    }
 
+    .offer-left-col-shopNow{
+        font-size: 1rem;
+    }
+
+    .offer-right-col-parent{
+        width: 361px;
+        height: 171px ;
+        margin-top: 20px;
+    }
+
+    .offer-right-col-title{
+        font-size: 1.25rem;
+    }
+
+    .offer-right-col-shopNow{
+        font-size: 1.2rem;
+    }
 
 }
