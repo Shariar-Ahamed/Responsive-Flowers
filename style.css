@@ -568,7 +568,7 @@ input {
     }
 
     .header-img{
-        width: 390px;
+        width: 100%;
         height: 245px;
         margin-top: -128px;
     }
